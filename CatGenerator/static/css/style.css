@@ -1,0 +1,35 @@
+.container-2{
+    border: 1px solid black;
+    margin: 0 auto;
+    width:75%;
+    text-align: center;
+}
+
+.flex-box-container-2{
+
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.flex-box-container-2 div{
+
+    padding: 10px;
+   
+    align-items: center;
+}
+
+.flex-box-container-2 img{
+    padding: 10px;
+    
+}
+
+.flex-box-result{
+    flex-direction: row;
+
+}
+
