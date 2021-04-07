@@ -32,5 +32,5 @@ innerHTML //DANGEROUS
 Example :
 !['parentElement'](https://github.com/coldkillerr/jspract/blob/master/vlcsnap-2021-04-07-12h00m21s023.png)
 
-
-##It is important to CACHE selectors in variables
+# Note
+## It is important to CACHE selectors in variables
