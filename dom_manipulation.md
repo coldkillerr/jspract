@@ -23,7 +23,7 @@ DOM Selectors
 - classList.remove ( removes a class from the selected item )
 - classList.toggle ( toggles betwwen add and remove. best to be used for on and off situations )
 
-##Bonus
+## Bonus
 innerHTML //DANGEROUS
 
 - parentElement
