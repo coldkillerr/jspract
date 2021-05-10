@@ -60,7 +60,7 @@ function add(a,b) {
 
 const add2 = (a,b) => a+b
 
-or 
+//or 
 
 const add2 = (a,b) => {return a+b;}
 
@@ -71,14 +71,21 @@ add2(1,2) :  3
 
 */
 
-const first =() =>{
-	const greet = 'hi';
-	const second =() => {
+//currying : 
 
-		alert (greet);
+const multiply = (a,b) => a*b; // normal multiplication function
+const curriedMultiply  = (a) => (b) => a*b ; // curried multiplication function 
 
+const mulby5 = curriedMultiply(5);  // this creates a function that multiplies argument by 5
 
-	}
-	return second;
-}
+mulby5(10) // returns 50
+
+// Compose
+
+const compose = (f,g) => (a)  => f(g(a));
+
+const sum = (num) => num+1;
+
+compose(sum,sum)(5);
+
 
